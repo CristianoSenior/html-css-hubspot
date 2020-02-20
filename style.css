@@ -1,0 +1,48 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+header{
+  background-color: red;
+  padding: 30px 0;
+  border: 2px solid black;
+}
+
+section{
+  background-color: green;
+  padding: 40px 0;
+  border:2px solid black;
+}
+
+
+/* <!-- JUMBODRONE --> */
+
+
+/* <!-- Powerful alone. Better together.+3 CONT SOTTO --> */
+
+
+/* <!-- Learn and grow + 8 CASELLE SOTTO --> */
+
+
+
+/* <!-- 73,400 + MARCHI LATERALI --> */
+
+
+
+/* <!-- Start Growing With HubSpot Today --> */
+
+
+
+/* <!-- inizio primo blocco -----------------------------> */
+
+
+
+
+footer{
+  background-color: green;
+  padding: 40px 0;
+  border:2px solid black;
+}
