@@ -4,18 +4,58 @@
   box-sizing: border-box;
 }
 
-
-header{
-  background-color: red;
-  padding: 30px 0;
-  border: 2px solid black;
+.mainnavcontainer{
+  /* START background reles */
+  background-color: purple;
+  height:150px;
+  width: 100%;
+  /* END background reules */
+  padding: 10px 40px;
+  list-style-type: none;
 }
+/* <!-- MAIN NAV sinistro--> */
+.sectioncontainerleft{
+  /* START background reles */
+  /* background-color: orange; */
+  padding: 20px;
+  width: 20%;
+    /* END background reules */
+  display: inline-block;
+
+
+}
+
+.sectioncontainerright{
+  /* background-color: yellow; */
+  padding:20px;
+  width: 20%;
+  display: inline-block;
+  float:right;
+}
+
+div ul li::after{
+  content: "";
+  display: table;
+  clear:both;
+
+}
+
+
+.fl{
+  float: left;
+}
+
+.fr{
+  float: :right;
+}
+
 
 section{
   background-color: green;
   padding: 40px 0;
   border:2px solid black;
 }
+
 
 
 /* <!-- JUMBODRONE --> */
@@ -42,7 +82,7 @@ section{
 
 
 footer{
-  background-color: green;
+  background-color: blue;
   padding: 40px 0;
   border:2px solid black;
 }
