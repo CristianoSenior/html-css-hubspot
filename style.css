@@ -3,65 +3,222 @@
   padding: 0;
   box-sizing: border-box;
 }
-
-.mainnavcontainer{
-  /* START background reles */
-  background-color: purple;
-  height:150px;
-  width: 100%;
-  /* END background reules */
-  padding: 10px 40px;
-  list-style-type: none;
-}
-/* <!-- MAIN NAV sinistro--> */
-.sectioncontainerleft{
-  /* START background reles */
-  /* background-color: orange; */
-  padding: 20px;
-  width: 20%;
-    /* END background reules */
-  display: inline-block;
-
-
+section{
+  background-color: green;
+  padding: 20px 0;
+  border:2px solid black;
 }
 
-.sectioncontainerright{
-  /* background-color: yellow; */
-  padding:20px;
-  width: 20%;
-  display: inline-block;
-  float:right;
-}
-
-div ul li::after{
-  content: "";
-  display: table;
-  clear:both;
-
-}
-
-
+/* CLASSI FLOAT */
 .fl{
   float: left;
 }
 
 .fr{
-  float: :right;
+  float: right;
+}
+
+.clearfix::after{
+  content: "";
+  display: table;
+  clear: both;
 }
 
 
-section{
-  background-color: green;
-  padding: 40px 0;
-  border:2px solid black;
+/*  PRIMO NAV FIXED */
+.mainnavcontainer{
+  /* START background reles */
+  background-color: #cbd6e2;
+  height:80px;
+  width: 100%;
+  /* END background reules */
+  padding: 30px 60px;
+  list-style-type: none;
+  position: fixed;
+}
+
+/* <!-- MAIN NAV sinistro--> */
+.sectioncontainerleft{
+  width: 50%;
+}
+
+/*PROPRIETà testo MAIN NAV sinistro  */
+.sectioncontainerleft .top-submenu a{
+  text-decoration: none;
+  color: #33475b;
+}
+
+/* MAIN NAV destro */
+.sectioncontainerright{
+  width: 50%;
+}
+
+/* Proprietà testo MAIN NAV destro*/
+.sectioncontainerright .top-submenu a{
+  text-decoration: none;
+  color: white;
+}
+
+
+.top-submenu li {
+  display:inline-block;
+}
+
+#login{
+  background-color:white;
+  padding:10px 20px 10px 20px;
+  color:orange;
+  border:1px solid orange;
+  border-radius: 10%;
+}
+
+.gethubspot{
+  background-color: orange;
+  padding:10px;
+  border-radius: 3%;
+  margin-left: 10px;
+}
+
+  /* <!-- SECOND NAV --> */
+
+.secondnavcontainerprinc{
+  background-color: red;
+  height: 80px;
+  width: 100%;
+  padding: 30px 60px;
+  margin-top: 80px;
+}
+
+/* CONTAINERLEFT second nav */
+.secondnavleft{
+  width: 50%;
+}
+
+/* CONTAINERright second nav */
+.secondnavright{
+  width: 50%;
+}
+
+.secondnavright .top-submenu a{
+  text-decoration: none;
+  color: #33475b;
 }
 
 
 
 /* <!-- JUMBODRONE --> */
+.firstcontainerjumb{
+  height: 695px;
+  width: 100%;
+  background-image: url("img/jumbotron2.png");
+  border: 2px solid black;
+}
+
+.larghezzacontenutijumb{
+  width: 30%;
+  padding: 30px 60px;
+}
+
+.sottotitolojumb{
+  padding-bottom: 30px;
+}
+
+#gethubspot{
+  background-color: orange;
+  padding:25px;
+  border-radius: 3%;
+  margin: 60px 0px;
+  text-decoration: none;
+  color : white;
+}
+
+.getstarted{
+  padding-top: 30px;
+}
+/* <!-- Powerful alone. Better together. --> */
+
+.mainpowerfulconteinar{
+  /* height: 400px; */
+  width: 80%;
+  /* margin:auto; */
+  margin: auto;
+  background-color: #f5f8fa;
+}
+
+img.resized{
+  width: 20%;
+  height: auto;
+  margin-left: 40%;
+}
+
+.titolopowerful{
+  width: 60%;
+  margin: 0% 30%;
+  margin-bottom: 30px;
+}
+
+.paragrafopowerful{
+  width: 60%;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+/* +3 CONTENITORI SOTTOTSTANTI */
+.maincontainersottostanti{
+  width: 80%;
+  border: 2px solid black;
+  background-color: #ff9900;
+  margin: auto;
+}
+/* misure 3 container  */
+.allcontainerstresottostanti{
+  width: 30%;
+  background-color: yellow;
+  border: 3px solid black;
+  padding-bottom: 30px;
+}
+
+.containersottostante2{
+  text-align: center;
+  margin: 20px 0px;
+}
+
+/* immagine magia */
+img.resized1{
+  width: 60%;
+  height: auto;
+  margin: 0% 20%;
+  }
+
+/* barra separatrice */
+  #barretta{
+    width: 80%;
+    border: 3px solid black;
+    margin: auto;
+  }
 
 
-/* <!-- Powerful alone. Better together.+3 CONT SOTTO --> */
+
+.testocentrato{
+  width:100%;
+  margin-left: 30px;
+  padding-bottom: 20px;
+}
+
+#circle{
+  color: orange;
+}
+
+.bottonerettangolare{
+  width: 60%;
+  background-color: orange;
+  padding:10px;
+  border-radius: 3%;
+  margin:auto;
+  text-align: center;
+
+}
+
 
 
 /* <!-- Learn and grow + 8 CASELLE SOTTO --> */
